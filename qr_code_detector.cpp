@@ -21,7 +21,7 @@ void display(Mat& im, Mat& bbox)
 
 int main(int argv, char* argc[]) {
 
-	Mat img = imread("C:/Users/arudh/Downloads/ac.png");
+	Mat img = imread("ac.png");
 
 	QRCodeDetector qrDecoder = QRCodeDetector::QRCodeDetector();
 
